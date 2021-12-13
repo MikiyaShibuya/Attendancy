@@ -1,6 +1,8 @@
 # Attendancy
 Automatic check in / out notification server
 
+reference: https://www.youtube.com/watch?v=lEQ68HhpO4g
+
 ## How to install
 
 1. clone this repo
