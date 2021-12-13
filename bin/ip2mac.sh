@@ -9,7 +9,7 @@ if [ -z "$IP" ];then
 fi
 
 MAC_ADDRESS_REGEX="\([0-9a-f]\{2\}:\)\{5\}[0-9a-f]\{2\}"
-TIMEOUT=0.4s
+TIMEOUT=0.1s
 
 TTL_LINE=$(timeout $TIMEOUT ping -c 1 $IP | grep ttl)
 
